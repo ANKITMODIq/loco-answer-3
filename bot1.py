@@ -11,7 +11,7 @@ import threading
 import concurrent
 
 BOT_OWNER_ROLE = 'AWM' # change to what you need
-#BOT_OWNER_ROLE_ID = "544387608378343446"
+#BOT_OWNER_ROLE_ID = "639147446672424983"
   
  
 
@@ -266,10 +266,9 @@ def selfbot_process(update_event, answer_scores):
 
     selfbot = SelfBot(update_event, answer_scores)
 
-    loop = asyncio.get_event_loop()
-    loop.create_task(selfbot.start('NjExMDQ4NzU2OTUxMTIxOTIw.XbRgsw.Heu7k-M0qZpH6a0CgbS_0nIF-ZU',
-                                   bot=False))
-    loop.run_forever()
+    
+ 
+    
 
 if __name__ == '__main__':
 
